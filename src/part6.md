@@ -76,12 +76,12 @@ The name "Virtual Machine" sounds like something big — like VirtualBox or VMwa
 
 The PVM is simply a loop inside the CPython program. When you installed Python, you got a C program (the interpreter). Inside that C program, there is a loop that does this:
 
-Pick up the next bytecode instruction
-Figure out what it means
-Do the operation
-Move to the next instruction
-Repeat until done
-That loop is the PVM. It is not a separate application. It is not a separate environment. It does not create a "space" or a "container." It is just a piece of C code running inside the Python interpreter.
+* Pick up the next bytecode instruction
+* Figure out what it means
+* Do the operation
+* Move to the next instruction
+* Repeat until done
+* That loop is the PVM. It is not a separate application. It is not a separate environment. It does not create a "space" or a "container." It is just a piece of C code running inside the Python interpreter.
 
 It is called a "virtual machine" because it behaves like a computer — but in software. A real machine (your CPU) reads machine code instructions and executes them. The PVM reads bytecode instructions and executes them. It does the same job as a CPU, but it is implemented in software instead of hardware. That is why it is virtual.
 

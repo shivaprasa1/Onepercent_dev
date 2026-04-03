@@ -6,8 +6,6 @@ for tok in tokens:
     print(tok)
     
 
-print()
-print()
 
 #AST - Abstract Syntax Tree
 import ast
@@ -18,3 +16,4 @@ print(ast.dump(tree, indent=2))
 # dis Module
 import dis
 dis.dis("x = 10")
+
