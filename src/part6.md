@@ -3,7 +3,7 @@
 ## The Execution Pipeline
 
 When you run a Python file, these steps happen in order:
-
+```
 ┌─────────────────┐     ┌───────────────────┐       ┌─────────────────┐
 │  Source Code    │────▶│  Lexing           │ ────▶│  Parsing        │
 │  (.py file)     │      │  (Tokenization)   │      │  (AST)          │
@@ -19,6 +19,7 @@ When you run a Python file, these steps happen in order:
                         │  Python Virtual   │              │
                         │  Machine (PVM)    │◀─────────────┘
                         └───────────────────┘
+```
 
 ### Step 1 — Python Reads Your Source Code
 
