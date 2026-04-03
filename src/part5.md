@@ -4,6 +4,7 @@
 
 print() is the most basic way to send data from your program to the screen.
 >print("hello")
+>print(object, sep="" , end="" , file="" , flush=true)
 
 ## input() — Receiving Data from the User
 

@@ -1,4 +1,4 @@
-
+"""
 #Asks for the user's name
 user=input("enter the user name:")
 
@@ -9,4 +9,5 @@ birth=int(input("enter the birth year: "))     #-------------> convert to int fo
 age_cal=2026-birth
 
 #Prints a formatted message using an f-string:
-print(f'Hello {user}, you are {age_cal} years old. Welcome to your 1% developer journey!')
+print(f'Hello {user}, you are {age_cal} years old. Welcome to your 1% developer journey!', flush=False)"""
+
